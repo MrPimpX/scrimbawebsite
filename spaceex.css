@@ -1,0 +1,56 @@
+
+/* Download ttf file >> place in tree structure >> use @font-face property >> give name to family, and URL to the TTF file*/
+@font-face {
+    font-family: ring;
+    src: url("RINGM___.TTF");
+}
+
+body{
+    background-size: cover;
+    color: #82a5ca;
+    text-align: center;
+    /* Imported from google fonts, link in html stylesheet and refreced below (found directly in google fonts) */
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+}
+
+.hero{
+    /* Set background image */
+    /* Background animations can be in webp formats */
+    background-image: url("https://media.giphy.com/media/IgRDB8kGs2JjGWcsaN/giphy-downsized-large.gif");
+    /* Use padding to expose more of the image especially vertically */
+    padding: 20px 20px 200px 20px;
+}
+
+h1{
+   margin-top: 0px;
+   /* Text shadow > x axis > y axis > blur > colour  */
+   text-shadow: 3px 3px 8px black;
+}
+
+h3{
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.btn{
+    border-radius: 0px;
+    border: 0px;
+    padding: 6px 12px;
+    background-color: white;
+    /* Font family is not usually inherited to buttons so must explicitly mention it*/
+    font-family: inherit;
+    font-weight: 900;
+}
+
+/* Spans can have classes too */
+.cta {
+   border-bottom: solid 4px white;
+}
+
+/* Use ID to target only one item */
+#main-logo{
+    width: 100px;
+}
+
+

@@ -1,0 +1,115 @@
+
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(lightblue, pink)
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#main{
+    border: solid #EFB0C9 5px; 
+    display: inline-block;
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+
+#main img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -50px; 
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{
+    background: #EFB0C9;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date{
+    background: #EFB0C9;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.gift{
+    margin-top: 50px;
+}
+
+.h2-gift{
+    margin-bottom: 10px;
+}
+
+.h3-gift{
+    margin-top: 0px;
+}
+
+.present-img{
+   width: 400px;
+   border: solid black 5px;
+   border-radius: 10px;
+   height: 400px;
+   background: linear-gradient(lightskyblue, black);
+   background-image: url("https://thumbs.dreamstime.com/b/present-box-3007278.jpg");
+   background-size: cover;
+   margin: auto;
+}
+
+.present-img:hover {
+    background-image: url("https://i.gifer.com/origin/65/651d5042e49e2eea63ea94c09e119716_w200.webp");
+ }
+
+ #gift-2:hover{
+    background-image: url("https://i.gifer.com/L9xT.gif");
+    background-size: contain;
+ }
+
+ #gift-3:hover{
+    background-image: url("https://i.gifer.com/7Mfv.gif");
+    background-size: contain;
+ }
+
+ #gift-4:hover{
+    background-image: url("https://i.gifer.com/Tro.gif");
+    background-size: contain;
+ }
+
+#gift-5 {
+    height: 200px;
+ }
+
+ #gift-5:hover{
+    background-image: url("https://i.gifer.com/UPTO.gif");
+    background-size: contain;
+ }
+
+ #footer{
+    width: 400px;
+    margin: 40px auto;
+ }
+
+ a {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:hover{
+    background-color: black;
+  }

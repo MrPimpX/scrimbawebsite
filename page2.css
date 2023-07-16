@@ -1,0 +1,39 @@
+
+body{
+    margin: 20px;
+    background-color: rgb(247, 244, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar{
+    width:150px
+}
+
+.card{
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ddebf8;
+    border-bottom: solid 6px #d8cefe;
+    color: #2b2839;
+    border-radius: 0 50px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* HOVER */
+h3:hover{
+    background-color: aquamarine;
+    transition: background-color 2.5s;
+
+}
+
+/* ANIMATIONS */
+
+/* SHADOW */
